@@ -6,7 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Countries</title>
     <link rel="stylesheet" href="./index.css" />
+    <script
+      src="https://kit.fontawesome.com/d197e896af.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="./index.js" async defer></script>
   </head>
-  <body></body>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <h1 class="heading">Where in the world?</h1>
+    </header>
+
+    <!-- action container -->
+    <div class="action-container">
+      <!-- search bar -->
+      <div class="search-bar">
+        <!-- icon -->
+        <i class="fa-solid fa-magnifying-glass" style="color: gray"></i>
+        <!-- input -->
+        <input type="text" placeholder="Search for a country" class="input" />
+      </div>
+
+      <!-- drop-down menu -->
+      <!-- <label for="cars">Filter by Region</label>
+      <select name="cars" id="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="opel">Opel</option>
+        <option value="audi">Audi</option>
+      </select> -->
+    </div>
+
+    <!-- countries -->
+    <div class="countries-container"></div>
+  </body>
 </html>
