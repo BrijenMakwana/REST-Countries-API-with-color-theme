@@ -26,7 +26,7 @@ const getCountriesData = () => {
                 </div>
                 <div class="country-stats-container">
                   <span class="data-heading">capital:</span>
-                  <span class="data-info">capitol</span>
+                  <span class="data-info">${item.capital}</span>
                 </div>
               </div>
             </div>`;
